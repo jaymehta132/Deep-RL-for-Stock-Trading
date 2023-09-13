@@ -1,6 +1,6 @@
 # FinSearch_2023
 
-This is a repo for the FinSearch project by my team. I have made two RL models using PPO and DQN to simulate stock trading. I will first explain PPO model and then the DQN in brief.
+This is a repo for the FinSearch project by my team. I have made two RL models using PPO and DQN to simulate stock trading. The PPO model is the main model and the DQN model was made just to compare results. I will first explain PPO model and then the DQN in brief.
 
 I have made a custom environment from scratch which has a 13 feature state-space and Discrete(101) action type.
 
@@ -24,8 +24,12 @@ Testing period:- 10L starting balance to 16L final balance
 
 DQN Model:-
 
-The environment is same for this model, just the RL model has changed. For DQN, the results were as follows:-
+The environment is same for this model, just the RL model has changed. The model was trained for 3M timesteps. For DQN, the results were as follows:-
 
 Training period:- 10L starting balance to 22L final balance
 
 Testing period:- 10L starting balance to 14.5L final balance
+
+The DQN model seems to be very underfitting as it is doing only one action for a lot days and hence requires more training. But due to lack of time and computation power, we didn't train this model for more timesteps.
+
+At first the results might seem very mediocre but if we take into account the time constraints coupled with the extreme volatility due to Covid-19 in the test data, the results seem pretty good.
