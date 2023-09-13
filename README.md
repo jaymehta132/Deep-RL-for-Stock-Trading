@@ -1,6 +1,6 @@
 # FinSearch_2023
 
-This is a repo for the FinSearch project by my team. I have made a RL model using PPO to simulate stock trading.
+This is a repo for the FinSearch project by my team. I have made two RL models using PPO and DQN to simulate stock trading. I will first explain PPO model and then the DQN in brief.
 
 I have made a custom environment from scratch which has a 13 feature state-space and Discrete(101) action type.
 
@@ -20,4 +20,12 @@ The results were as follows
 
 Training period:- 10L starting balance to 24L final balance
 
-Tetsing period:- 10L starting balance to 16L final balance
+Testing period:- 10L starting balance to 16L final balance
+
+DQN Model:-
+
+The environment is same for this model, just the RL model has changed. For DQN, the results were as follows:-
+
+Training period:- 10L starting balance to 22L final balance
+
+Testing period:- 10L starting balance to 14.5L final balance
