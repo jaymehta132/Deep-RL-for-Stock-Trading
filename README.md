@@ -1,4 +1,4 @@
-# FinSearch_2023
+# Deep-RL-for-Stock-Trading
 
 This is a repo for the FinSearch project by my team. I have made two RL models using PPO and DQN to simulate stock trading. The PPO model is the main model and the DQN model was made just to compare results. I will first explain PPO model and then the DQN in brief.
 
